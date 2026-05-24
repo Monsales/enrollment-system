@@ -1,4 +1,7 @@
 {
   "$schema": "https://schema.railpack.com",
-  "phpExtensions": ["gd"]
+  "buildAptPackages": ["libpng-dev", "libjpeg-dev", "libfreetype6-dev", "libzip-dev"],
+  "deploy": {
+    "aptPackages": ["libpng16-16", "libjpeg62-turbo", "libfreetype6", "libzip4"]
+  }
 }
